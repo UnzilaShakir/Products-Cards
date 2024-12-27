@@ -1,0 +1,66 @@
+h1{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+
+}
+
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .image {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .title {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .description {
+    color: #666;
+    font-size: 14px;
+    margin: 8px 0;
+  }
+  
+  .price {
+    font-size: 16px;
+    color: #111;
+    margin-top: 12px;
+  }
+
+  .button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+
+   .button:hover {
+    background-color: rgb(128, 123, 123);
+  }
+  
+  
